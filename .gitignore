@@ -1,0 +1,6 @@
+# Ambiente Python e arquivos gerados durante os testes
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.molecule/

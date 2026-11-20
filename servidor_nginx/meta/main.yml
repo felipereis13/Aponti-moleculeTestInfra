@@ -1,0 +1,10 @@
+---
+galaxy_info:
+  author: João Victor Luiz
+  namespace: felipe
+  role_name: servidor_nginx
+  description: Laboratório de instalação do Nginx e testes de infraestrutura
+  license: MIT
+  min_ansible_version: "2.15"
+
+dependencies: []

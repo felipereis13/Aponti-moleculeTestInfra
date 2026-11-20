@@ -1,0 +1,9 @@
+---
+- name: Aplicar a configuração do Nginx no laboratório
+  hosts: all
+  become: true
+
+  tasks:
+    - name: Executar a role servidor_nginx
+      ansible.builtin.include_role:
+        name: felipe.servidor_nginx
